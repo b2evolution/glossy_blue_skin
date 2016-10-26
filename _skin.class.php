@@ -19,6 +19,12 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
  */
 class glossyblue_Skin extends Skin
 {
+	/**
+	 * Skin version
+	 * @var string
+	 */
+	var $version = '5.1.1';
+	
 
   	/**
 	 * Get default name for the skin.
